@@ -11,10 +11,10 @@ import javax.validation.ConstraintValidatorContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerMapping;
 
+import com.devsuperior.bds04.controller.exceptions.FieldMessage;
 import com.devsuperior.bds04.dto.UserUpdateDTO;
 import com.devsuperior.bds04.entities.User;
 import com.devsuperior.bds04.repositories.UserRepository;
-import com.devsuperior.bds04.resources.exceptions.FieldMessage;
 
 public class UserUpdateValidator implements ConstraintValidator<UserUpdateValid, UserUpdateDTO> {
 	
