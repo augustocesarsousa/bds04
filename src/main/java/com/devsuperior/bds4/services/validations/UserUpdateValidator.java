@@ -11,7 +11,7 @@ import javax.validation.ConstraintValidatorContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.servlet.HandlerMapping;
 
-import com.devsuperior.bds04.controller.exceptions.FieldMessage;
+import com.devsuperior.bds04.controllers.exceptions.FieldMessage;
 import com.devsuperior.bds04.dto.UserUpdateDTO;
 import com.devsuperior.bds04.entities.User;
 import com.devsuperior.bds04.repositories.UserRepository;
