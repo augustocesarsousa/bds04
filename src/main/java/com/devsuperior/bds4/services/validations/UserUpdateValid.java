@@ -1,4 +1,4 @@
-package com.devsuperior.bds4.services.validation;
+package com.devsuperior.bds4.services.validations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

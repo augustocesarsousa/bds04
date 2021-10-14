@@ -1,6 +1,6 @@
 package com.devsuperior.bds04.dto;
 
-import com.devsuperior.bds4.services.validation.UserInsertValid;
+import com.devsuperior.bds4.services.validations.UserInsertValid;
 
 @UserInsertValid
 public class UserInsertDTO extends UserDTO {
