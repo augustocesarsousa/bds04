@@ -26,7 +26,6 @@ import com.devsuperior.bds04.entities.Role;
 import com.devsuperior.bds04.entities.User;
 import com.devsuperior.bds04.repositories.RoleRepository;
 import com.devsuperior.bds04.repositories.UserRepository;
-import com.devsuperior.bds04.services.UserService;
 import com.devsuperior.bds04.services.exceptions.DataBaseException;
 import com.devsuperior.bds04.services.exceptions.ResourceNotFoundException;
 
